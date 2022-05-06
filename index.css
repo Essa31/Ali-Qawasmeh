@@ -1,0 +1,38 @@
+body{
+    font-size: 40px;
+    font-style: italic;
+    
+}
+
+checkbox .l1{
+    justify-items: center;
+
+}
+
+.checkbox{
+ 
+    
+    width:100%;
+   
+    display:grid;
+    grid-template-columns:repeat(4,220px);
+ 
+   
+
+    flex-direction:row ;
+  
+    margin: 100px;
+  
+  
+   
+    /*flex-direction:wra
+   /* grid-template-columns: repeat(4,1fr);
+
+    grid-template-rows: auto auto auto;*/
+}
+.checkbox input{
+    width:2em;
+    height: 2em;
+  
+
+}

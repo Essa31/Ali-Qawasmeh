@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.page{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:"logo logo logo logo logo logo logo logo logo logo  "  " nav nav nav content content content content content content content " "aside aside aside aside aside aside aside aside aside aside " " footer footer footer footer footer footer footer footer footer footer";
+}
+h1{
+    grid-area: logo;
+    color: aliceblue;
+    background-color: darkgreen;
+
+   
+}
+ul {
+    list-style: none;
+
+}
+nav{
+    grid-area: nav;
+    color: rgb(239, 241, 245);
+    background-color: red;
+}
+section{
+    grid-area: content;
+    color: aliceblue;
+    background-color: rgb(30, 10, 109);
+}
+aside{
+    grid-area: aside;
+    color: aliceblue;
+    background-color: rgb(144, 158, 13);
+}
+footer{
+    grid-area: footer;
+    color: aliceblue;
+    background-color: rgb(50, 2, 59);
+}
+
+
